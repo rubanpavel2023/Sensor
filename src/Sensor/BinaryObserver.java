@@ -10,6 +10,5 @@ public class BinaryObserver extends Observer {
     public void update() {
         System.out.println("Color: " + substance.getColor());
         System.out.println("Weight: " + substance.getWeight());
-
     }
 }
