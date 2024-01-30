@@ -7,6 +7,7 @@ public class Substance extends Subject {
     private int weight;
     private AtomicInteger count = new AtomicInteger(0);
 
+
     public String getColor() {
         return color;
     }
@@ -20,11 +21,11 @@ public class Substance extends Subject {
         int currentState = count.incrementAndGet();
         System.out.println("\nState change №" + currentState);
         if (temperature <= 0) {
-            color = "White";
-            weight = 1;
+            this.color = "White";
+            this.weight = 1;
         } else {
-            color = "Black";
-            weight = 2 * temperature;
+            this.color = "Black";
+            this.weight = 2 * temperature;
         }
         super.setState(temperature);
     }
