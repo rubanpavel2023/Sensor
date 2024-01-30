@@ -18,7 +18,7 @@ public class Substance extends Subject {
     @Override
     public void setState(int temperature) {
         int currentState = count.incrementAndGet();
-        System.out.println("\nState change №" + currentState + ": " + temperature);
+        System.out.println("\nState change №" + currentState);
         if (temperature <= 0) {
             color = "White";
             weight = 1;

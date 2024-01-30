@@ -7,6 +7,9 @@ public class Main {
         substance.setState(-3);
         substance.setState(4);
         substance.setState(0);
+        substance.setState(5);
+
+
     }
 
 }

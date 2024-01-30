@@ -8,6 +8,7 @@ public class BinaryObserver extends Observer {
 
     @Override
     public void update() {
+        System.out.println("Temperature: " +substance.getState());
         System.out.println("Color: " + substance.getColor());
         System.out.println("Weight: " + substance.getWeight());
     }
