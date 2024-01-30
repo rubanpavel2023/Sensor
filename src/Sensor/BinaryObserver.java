@@ -6,6 +6,7 @@ public class BinaryObserver extends Observer {
         this.substance.attach(this);
     }
 
+
     @Override
     public void update() {
         System.out.println("Temperature: " +substance.getState());
