@@ -28,4 +28,5 @@ public class Substance extends Subject {
         }
         super.setState(temperature);
     }
+
 }
